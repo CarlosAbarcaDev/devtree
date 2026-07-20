@@ -1,0 +1,23 @@
+{
+  "name": "devtree",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "Carlos Abarca Dev",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node --watch src/index.ts",
+    "start": "node dist/index.js",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "ts-node": "^10.9.2",
+    "typescript": "^7.0.2"
+  }
+}
